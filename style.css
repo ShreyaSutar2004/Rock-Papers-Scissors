@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: cornsilk;
+}
+
+h2{
+   
+    color: rgb(85, 78, 78);
+    text-align: center;
+    font-style: italic;
+    font-size: 5vmin;
+    height: 5rem;
+  /* To bring it to center*/
+    line-height: 5rem;
+}
+
+.choice{
+
+    height: 200px;
+    width: 200px;
+   display: flex;
+   justify-content: center;
+
+}
+.choice:hover{
+    background-color:burlywood ;
+    cursor: pointer;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    /* To make the image resizable*/
+    object-fit: cover;
+   /* border-radius: 50%;*/
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+
+.scoreboard{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top:  4rem;
+    gap: 5rem;
+}
+.msg-container{
+    
+margin-top: 5rem;
+margin-left: 40rem;
+
+} 
+#mymsg{
+   
+color: black;
+font-size: 2rem;
+display: inline;
+padding: 1rem;
+
+
+}
+
+#You,#Computer{
+    font-size: 4rem;
+
+}
+
